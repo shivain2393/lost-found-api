@@ -14,7 +14,7 @@ const PORT = process.env.PORT_NO || 3000;
 
 app.get("/", (req, res) => {
     res.send({
-        message: "Hello World"
+        message: "Welcome to Lost and Found API where you can report lost and found items and also match them using various API endpoints."
     })
 })
 
